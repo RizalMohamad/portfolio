@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const Home = () => {
   const { description, resume, wrapImg, image } = HomeMotion;
   return (
-    <section className="flex flex-col lg:flex-row h-full px-6 py-4 items-center min-h-[90vh] gap-2">
+    <section className="flex flex-col lg:flex-row h-full px-6 py-4 items-center min-h-[90vh] gap-1">
       <motion.div
         className="flex flex-1 flex-col space-y-6 items-center md:items-start"
         initial={description.initial}
