@@ -24,7 +24,7 @@ export const Home = () => {
           Frontend Developer
         </h2>
         <p className="text-center md:text-start text-xs md:text-base">
-        I am a frontend developer who uses JavaScript programming language (React Js and Next Js)
+        I am a frontend developer who uses Javascript programming language (React Js and Next Js)
         </p>
         <Link to="#">
           <motion.div

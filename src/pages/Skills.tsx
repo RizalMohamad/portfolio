@@ -5,8 +5,12 @@ import {
   IconBrandNextjs,
   IconBrandVue,
   IconBrandNuxt,
+  IconBrandNodejs,
   IconBrandBootstrap,
   IconBrandTailwind,
+  IconBrandSass,
+  IconBrandMongodb,
+  IconSql,
 } from '@tabler/icons-react';
 import { SectionMotion } from '../common/motion/Section';
 import { SectionHeader } from '../components/SectionHeader';
@@ -21,8 +25,12 @@ export const Skills = () => {
     { label: 'Next Js', icon: <IconBrandNextjs /> },
     { label: 'Vue Js', icon: <IconBrandVue /> },
     { label: 'Nuxt Js', icon: <IconBrandNuxt /> },
+    { label: 'Node Js', icon: <IconBrandNodejs /> },
+    { label: 'Sass', icon: <IconBrandSass /> },
     { label: 'Bootstrap CSS', icon: <IconBrandBootstrap /> },
     { label: 'Tailwind CSS', icon: <IconBrandTailwind /> },
+    { label: 'MongoDB', icon: <IconBrandMongodb /> },
+    { label: 'SQL', icon: <IconSql /> },
   ];
   return (
     <motion.section
