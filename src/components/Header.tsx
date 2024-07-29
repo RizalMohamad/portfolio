@@ -13,6 +13,7 @@ export const Header = () => {
     { name: 'Experience', path: '/experience' },
     { name: 'Education', path: '/education' },
     { name: 'Portfolio', path: '/portfolio' },
+    { name: 'Galeri', path: '/galeri' },
     { name: 'Contact', path: '/contact' },
   ];
   function toggleDrawer() {

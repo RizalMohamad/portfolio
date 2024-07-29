@@ -10,6 +10,7 @@ import { Contact } from './pages/Contact';
 import { MediaBar } from './components/MediaBar';
 import { Footer } from './components/Footer';
 import { NotFound } from './pages/NotFound';
+// import { Galeri } from './pages/Galeri'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
+          {/* <Route path="/project" element={<Project />} /> */}
         </Routes>
       </section>
       <Footer />
