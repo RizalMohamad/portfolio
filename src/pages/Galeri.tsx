@@ -11,7 +11,7 @@ export const Galeri = () => {
           fontSize: "100px",
         }}
       >
-        Hello World
+        My galeri in website portfolio
       </h1>
     </section>
   );
